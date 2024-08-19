@@ -81,7 +81,7 @@ jobs:
         git config --global user.email "hmbilal108@gmail.com"
         git config --global user.name "bilal"
         git add helm/go-web-app-chart/values.yaml
-        git commit -m "Update tag in Helm chart"
+        git commit -m "Update tag in Helm chart testpurpose"
         git push
       # Optional: Ensure the branch is updated before pushing
       env:
